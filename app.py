@@ -8,7 +8,7 @@ inject_css()
 
 pages = {
     "Pengantar": [
-        st.Page("views/beranda.py", title="Beranda", default=True),
+       st.Page("views/beranda.py", title="Beranda", icon=":material/home:", default=True),
         st.Page("views/dataset.py", title="Tentang Dataset", icon=":material/database:"),
         st.Page("views/eda.py", title="Eksplorasi Data (EDA)", icon=":material/bar_chart:"),
     ],
